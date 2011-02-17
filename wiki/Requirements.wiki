@@ -1,31 +1,31 @@
 1. Support of several sites, stores, and store views<br>
 2. Flexible attribute list for products and customers<br>
-3. Tree of categories
-4. Three product types: simple, configurable, grouped
-5. Internationalization
-6. Help system (associated help page for each application page)
-7. Flexible page layouts and themes (code modification required)
-8. User registration and authentication, flexible permissions, customer groups and segments
-9. Search and advanced search  in Front-end
-10. Filter by product attributes in Front-end
-11. Wish-list
-12. Compare list  
-13. Cart list 
-14. Stock management
-15. Promotions and discounts
-16. Import / export of products, orders, etc.
-17. Tags for products
-18. Reports
-19. General checkout process. 
-20. Management of Newsletters
-21. Batch updates
-22. URL redirection
-23. Product reviews and ratings  
-24. Integration with Google API (Analytics, Base, Checkout, Website Optimizer)
-25. Mobile platforms support
-26. B2B Integration with external services (code modification required)
-27. Cache Management
-28. CMS
-29. Checkout - Integration with PayPal and Google Checkout
-30. “New products” panel
-31. RSS Feeds 
+3. Tree of categories<br>
+4. Three product types: simple, configurable, grouped<br>
+5. Internationalization<br>
+6. Help system (associated help page for each application page)<br>
+7. Flexible page layouts and themes (code modification required)<br>
+8. User registration and authentication, flexible permissions, customer groups and segments<br>
+9. Search and advanced search  in Front-end<br>
+10. Filter by product attributes in Front-end<br>
+11. Wish-list<br>
+12. Compare list<br>
+13. Cart list <br>
+14. Stock management<br>
+15. Promotions and discounts<br>
+16. Import / export of products, orders, etc.<br>
+17. Tags for products<br>
+18. Reports<br>
+19. General checkout process. <br>
+20. Management of Newsletters<br>
+21. Batch updates<br>
+22. URL redirection<br>
+23. Product reviews and ratings  <br>
+24. Integration with Google API (Analytics, Base, Checkout, Website Optimizer)<br>
+25. Mobile platforms support<br>
+26. B2B Integration with external services (code modification required)<br>
+27. Cache Management<br>
+28. CMS<br>
+29. Checkout - Integration with PayPal and Google Checkout<br>
+30. “New products” panel<br>
+31. RSS Feeds <br>
