@@ -1,0 +1,23 @@
+<h2>Base modules</h2>
+<ol>
+<li>padda-core - all entities, service interfaces and implementation, etc.</li>
+<li>padda-web-frontend - base web application for front-end</li>
+<li>padda-web-backend - base web application for back-end</li>
+<li>padda-widget-framework - implementation of widget framework</li> 
+</ol>
+
+<h2>Modules for widgets of Front-end</h2>
+<ol>
+<li>padda-widget-category-horizontal-menu - horizontal menu of categories</li> 
+<li>padda-widget-category-vertical-menu - vertical menu of categories for the first page</li> 
+<li>padda-widget-current-category - horizontal block with category path, name and other information</li> 
+<li>padda-widget-current-category - horizontal block with category path, name and other information</li> 
+<li>padda-widget-category-shopby - the list of subcategories</li> 
+<li>padda-widget-page-header - horizontal block with company logo, links to lists, cart, checkout, search, etc.</li> 
+<li>padda-widget-product-list - product list block</li> 
+<li>padda-widget-product-list-filter - filtering product list by attributes</li> 
+<li>padda-widget-product-details - product details</li>
+<li>padda-widget-productlist-compare - compare list</li>
+<li>padda-widget-productlist-wishlist - wishlist</li>
+<li>padda-widget-productlist-cart - wishlist</li>
+</ol>
