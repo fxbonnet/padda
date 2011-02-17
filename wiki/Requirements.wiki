@@ -1,9 +1,9 @@
-1. Support of several sites, stores, and store views
-2. Flexible attribute list for products and customers
-3. Tree of categories
-4. Three product types: simple, configurable, grouped
-5. Internationalization
-6. Help system (associated help page for each application page)
+ 1. Support of several sites, stores, and store views
+ 2. Flexible attribute list for products and customers
+ 3. Tree of categories
+ 4. Three product types: simple, configurable, grouped
+ 5. Internationalization
+ 6. Help system (associated help page for each application page)
 7. Flexible page layouts and themes (code modification required)
 8. User registration and authentication, flexible permissions, customer groups and segments
 9. Search and advanced search  in Front-end
