@@ -1,9 +1,34 @@
 <h2>Base modules</h2>
 <ol>
-<li>padda-core - all entities, service interfaces and implementation, etc.</li>
+<li>padda-core - all entities, service and DAO interfaces, etc.</li>
+
+<li>padda-sites-dao : implementations and persistance</li>
+<li>padda-sites-service : implementation of the service </li>
+<li>padda-views-dao : implementations and persistance</li>
+<li>padda-views-service : implementation of the service </li>
+<li>padda-store-dao : implementations and persistance</li>
+<li>padda-store-service : implementation of the service </li>
+<li>padda-category-dao : implementations and persistance</li>
+<li>padda-category-service : implementation of the service </li>
+<li>padda-products-dao : implementations and persistance</li>
+<li>padda-products-service : implementation of the service</li>
+<li>padda-attributes-dao : implementations and persistance</li>
+<li>padda-attributes-service : implementation of the service </li>
+<li>padda-attributes-dao : implementations and persistance</li>
+<li>padda-attributes-service : implementation of the service </li>
+
+<li>padda-customer-dao : implementations and persistance</li>
+<li>padda-customer-service : implementation of the service</li>
+<li>padda-cart-dao : implementations and persistance</li>
+<li>padda-cart-service : implementation of the service</li>
+<li>padda-wishlist-dao : implementations and persistance</li>
+<li>padda-wishlist-service : implementation of the service</li>
+<li>padda-comparelist-dao : implementations and persistance</li>
+<li>padda-comparelist-service : implementation of the service</li>
+
 <li>padda-web-frontend - base web application for front-end</li>
 <li>padda-web-backend - base web application for back-end</li>
-<li>padda-widget-framework - implementation of widget framework</li> 
+
 </ol>
 
 <h2>Modules for widgets of Front-end</h2>
