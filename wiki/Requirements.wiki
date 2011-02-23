@@ -1,3 +1,5 @@
+<p>
+<h2>Necessary to start</h2>
 1. Support of several sites, stores, and store views<br>
 2. Flexible attribute list for products and customers<br>
 3. Tree of categories<br>
@@ -11,6 +13,10 @@
 11. Wish-list<br>
 12. Compare list<br>
 13. Cart list <br>
+</p>
+
+<p>
+<h2>Can be done later</h2>
 14. Stock management<br>
 15. Promotions and discounts<br>
 16. Import / export of products, orders, etc.<br>
@@ -29,3 +35,4 @@
 29. Checkout - Integration with PayPal and Google Checkout<br>
 30. “New products” panel<br>
 31. RSS Feeds <br>
+</p>
