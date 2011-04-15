@@ -1,41 +1,58 @@
 <h2>Base modules</h2>
 <ol>
-<li>padda-core - all entities, service and DAO interfaces, etc.</li>
-<li>padda-sites-dao : implementations and persistance</li>
-<li>padda-sites-service : implementation of the service </li>
-<li>padda-views-dao : implementations and persistance</li>
-<li>padda-views-service : implementation of the service </li>
-<li>padda-store-dao : implementations and persistance</li>
-<li>padda-store-service : implementation of the service </li>
-<li>padda-category-dao : implementations and persistance</li>
-<li>padda-category-service : implementation of the service </li>
-<li>padda-products-dao : implementations and persistance</li>
-<li>padda-products-service : implementation of the service</li>
-<li>padda-attributes-dao : implementations and persistance</li>
-<li>padda-attributes-service : implementation of the service </li>
-<li>padda-customer-dao : implementations and persistance</li>
-<li>padda-customer-service : implementation of the service</li>
-<li>padda-cart-dao : implementations and persistance</li>
-<li>padda-cart-service : implementation of the service</li>
-<li>padda-wishlist-dao : implementations and persistance</li>
-<li>padda-wishlist-service : implementation of the service</li>
-<li>padda-comparelist-dao : implementations and persistance</li>
-<li>padda-comparelist-service : implementation of the service</li>
-<li>padda-web-frontend - base web application for front-end</li>
-<li>padda-web-backend - base web application for back-end</li>
+<li>padda-core : all entities, service and DAO interfaces, etc.</li>
+</ol>
+
+<h2>Data access implementation modules</h2>
+<ol>
+<li>padda-sites-dao</li>
+<li>padda-views-dao</li>
+<li>padda-store-dao</li>
+<li>padda-category-dao</li>
+<li>padda-products-dao</li>
+<li>padda-attributes-dao</li>
+<li>padda-customer-dao</li>
+<li>padda-cart-dao</li>
+<li>padda-wishlist-dao</li>
+<li>padda-comparelist-dao</li>
+</ol>
+
+<h2>Service implementation modules</h2>
+<ol>
+<li>padda-sites-service</li>
+<li>padda-views-service</li>
+<li>padda-store-service</li>
+<li>padda-category-service</li>
+<li>padda-products-service</li>
+<li>padda-attributes-service</li>
+<li>padda-customer-service</li>
+<li>padda-cart-service</li>
+<li>padda-wishlist-service</li>
+<li>padda-comparelist-service</li>
+</ol>
+
+<h2>Web modules</h2>
+<ol>
+<li>padda-web-frontend : base web application for front-end</li>
+<li>padda-web-backend : base web application for back-end</li>
 </ol>
 
 <h2>Modules for widgets of Front-end</h2>
 <ol>
-<li>padda-widget-category-horizontal-menu - horizontal menu of categories</li> 
-<li>padda-widget-category-vertical-menu - vertical menu of categories for the first page</li> 
-<li>padda-widget-current-category - horizontal block with category path, name and other information</li> 
-<li>padda-widget-category-shopby - the list of subcategories</li> 
-<li>padda-widget-page-header - horizontal block with company logo, links to lists, cart, checkout, search, etc.</li> 
-<li>padda-widget-product-list - product list block</li> 
-<li>padda-widget-product-list-filter - filtering product list by attributes</li> 
-<li>padda-widget-product-details - product details</li>
-<li>padda-widget-productlist-compare - compare list</li>
-<li>padda-widget-productlist-wishlist - wishlist</li>
-<li>padda-widget-productlist-cart - wishlist</li>
+<li>padda-widget-category-horizontal-menu : horizontal menu of categories</li> 
+<li>padda-widget-category-vertical-menu : vertical menu of categories for the first page</li> 
+<li>padda-widget-current-category : horizontal block with category path, name and other information</li> 
+<li>padda-widget-category-shopby : the list of subcategories</li> 
+<li>padda-widget-page-header : horizontal block with company logo, links to lists, cart, checkout, search, etc.</li> 
+<li>padda-widget-product-list : product list block</li> 
+<li>padda-widget-product-list-filter : filtering product list by attributes</li> 
+<li>padda-widget-product-details : product details</li>
+<li>padda-widget-productlist-compare : compare list</li>
+<li>padda-widget-productlist-wishlist : wish list</li>
+<li>padda-widget-productlist-cart : cart list</li>
+</ol>
+
+<h2>Technical modules</h2>
+<ol>
+<li>padda-parent - version management and maven plugins</li>
 </ol>
