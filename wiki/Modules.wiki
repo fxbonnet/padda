@@ -32,7 +32,6 @@
 <li>padda-widget-category-horizontal-menu - horizontal menu of categories</li> 
 <li>padda-widget-category-vertical-menu - vertical menu of categories for the first page</li> 
 <li>padda-widget-current-category - horizontal block with category path, name and other information</li> 
-<li>padda-widget-current-category - horizontal block with category path, name and other information</li> 
 <li>padda-widget-category-shopby - the list of subcategories</li> 
 <li>padda-widget-page-header - horizontal block with company logo, links to lists, cart, checkout, search, etc.</li> 
 <li>padda-widget-product-list - product list block</li> 
