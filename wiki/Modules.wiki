@@ -13,8 +13,6 @@
 <li>padda-products-service : implementation of the service</li>
 <li>padda-attributes-dao : implementations and persistance</li>
 <li>padda-attributes-service : implementation of the service </li>
-<li>padda-attributes-dao : implementations and persistance</li>
-<li>padda-attributes-service : implementation of the service </li>
 <li>padda-customer-dao : implementations and persistance</li>
 <li>padda-customer-service : implementation of the service</li>
 <li>padda-cart-dao : implementations and persistance</li>
