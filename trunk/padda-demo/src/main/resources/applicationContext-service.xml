@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean name="propertyPlaceholder" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<value>classpath:applicationConstants.properties</value>
+		</property>
+	</bean>
+	
+	<!-- Product DAO -->
+	<alias alias="productDAO" name="${product.dao}" />
+    <bean id="productDaoSimpleMock" class="fr.smile.padda.products.dao.mocks.ProductDaoSimpleMock" scope="singleton" init-method="init">
+    </bean>
+	
+	<!-- Product service -->
+	<alias alias="productService" name="${product.service}" />
+	<bean id="productServiceSimpleMock" class="fr.smile.padda.products.services.ProductServiceSimpleMock" scope="singleton">
+	   <property name="productDAO" ref="productDAO"/>
+	</bean>
+	
+	<alias alias="categoryDAO" name="${category.dao}" />
+    <bean id="categoryDaoSimpleMock" class="fr.smile.padda.categories.dao.mocks.CategoryDaoSimpleMock" scope="singleton">
+    </bean>
+    
+    <bean id="categoryService" class="fr.smile.padda.categories.services.CategoryService" scope="singleton">
+	   <property name="categoryDAO" ref="categoryDAO"/>
+	</bean>
+	
+</beans>

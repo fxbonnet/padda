@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<package name="fr.smile.padda.web" namespace="/" extends="struts-default">
+	
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+
+        <global-results>
+			<result name="catalog" type="redirectAction">category</result>
+		</global-results>
+	
+		<action name="category" class="catalogAction" method="displayCategory">
+			<result name="success" type="tiles">catalog</result>
+		</action>
+		
+	</package>
+</struts>
