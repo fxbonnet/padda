@@ -1,0 +1,201 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.smile.padda</groupId>
+    <artifactId>padda-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>padda-demo</name>
+    <url>https://pic-java.smile.fr/fr.smile.padda/padda-demo</url>
+    <dependencies>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+        </dependency>
+        
+        <!-- Servlet & Jsp -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>${jsp.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Jakarta Commons -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+        
+        <!-- Spring -->
+        <dependency>
+        	<groupId>org.springframework</groupId>
+        	<artifactId>spring</artifactId>
+        	<version>2.5.3</version>
+        </dependency>
+        
+        <!-- Struts -->
+        <dependency>
+			<groupId>org.apache.struts</groupId>
+    		<artifactId>struts2-core</artifactId>
+      		<version>2.2.3.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.struts</groupId>
+		    <artifactId>struts2-tiles-plugin</artifactId>
+		    <version>2.1.6</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-spring-plugin</artifactId>
+			<version>2.2.3.1</version>
+		</dependency>
+        
+    </dependencies>
+    <!-- Project properties section -->
+    <properties>
+        <!-- Maven project properties -->
+        <servlet.version>2.4</servlet.version>
+        <jsp.version>2.0</jsp.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Project properties -->
+    </properties>
+    <build>
+        <finalName>padda-demo</finalName>
+        <resources>
+            <resource>
+                <filtering>true</filtering>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <encoding>ISO-8859-1</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>7.4.2.v20110526</version>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <webAppConfig>
+                        <contextPath>/padda-demo</contextPath>
+                    </webAppConfig>
+                </configuration>
+            </plugin>
+            <!-- Uncomment to activate PMD -->
+            <!--
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <targetJdk>1.6</targetJdk>
+                    <configLocation> conf/reglesActivitesPmd.xml</configLocation>
+                    <locales>fr</locales>
+                    <inputEncoding>UTF-8</inputEncoding>
+                    <outputEncoding>UTF-8</outputEncoding>
+                </configuration>
+            </plugin>
+            -->
+        </plugins>
+    </build>
+
+    <ciManagement>
+        <system>continuum</system>
+        <url>https://pic-java.smile.fr/continuum/projectGroupSummary.action?projectGroupId=/*FIXME*/</url>
+        <notifiers>
+            <notifier>
+                <sendOnSuccess>false</sendOnSuccess>
+                <sendOnWarning>false</sendOnWarning>
+                <configuration>
+                    <address>monmail@smile.fr</address>
+                </configuration>
+            </notifier>
+        </notifiers>
+    </ciManagement>
+    <mailingLists>
+        <mailingList>
+            <name>Projet /*FIXME*/</name>
+            <post>monprojet@smile.fr</post>
+        </mailingList>
+    </mailingLists>
+    <developers>
+        <developer> <!-- FIXME -->
+            <id>phdeo</id>
+            <name>Philippe De Oliveira</name>
+            <email>phdeo@smile.fr</email>
+            <organization>Smile</organization>
+            <organizationUrl>http://www.smile.fr
+			</organizationUrl>
+            <roles>
+                <role>Chef de projet technique</role>
+            </roles>
+        </developer>
+    </developers>
+    <repositories></repositories>
+    <scm> <!-- FIXME -->
+        <connection>scm:svn:https://sources.smile.fr/svn/monprojet/trunk/monprojet</connection>
+        <developerConnection>scm:svn:https://sources.smile.fr/svn/monprojet/trunk/monprojet</developerConnection>
+        <url>scm:svn:https://sources.smile.fr/svn/monprojet/trunk/monprojet</url>
+    </scm>
+    <distributionManagement>
+        <repository>
+            <id>nexus.internal.releases</id>
+            <url>https://pic-java.smile.fr/nexus/content/repositories/InternalSmileReleases/
+			</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus.internal.snapshots</id>
+            <url>https://pic-java.smile.fr/nexus/content/repositories/InternalSmileSnapshots/
+			</url>
+        </snapshotRepository>
+        <site>
+            <id>maven.doc.smile</id>
+            <url>scp://pic-java.vitry.intranet/var/www/fr.smile.padda/padda-demo</url>
+        </site>
+    </distributionManagement>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<definition name="layoutFront" template="/jsp/layouts/layoutFront.jsp">
+	</definition>
+
+	<definition name="catalog" extends="layoutFront">
+		<put-attribute name="body">/jsp/catalog.jsp</put-attribute>
+	</definition>
+
+</tiles-definitions> 
