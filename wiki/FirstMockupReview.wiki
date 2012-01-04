@@ -1,0 +1,12 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Review of the first mockup application with products and categories
+
+
+= Details =
+
+  # Code is all in one maven project. Should be separate projects for interfaces and implementations and for layers (persistance, services, views)
+  # Fix bug 1 missing image
+  # Do we separate products and categories or do we let them together as "product catalog"
