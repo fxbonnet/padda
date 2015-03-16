@@ -13,7 +13,7 @@ The name "[padda] (http://en.wikipedia.org/wiki/Padda)" comes from a bird from J
 # Roadmap
 
 Done:
-   1. Functional [requirements] https://github.com/fxbonnet/padda/wiki/Requirements) (with 2 categories : necessaryToStart, canBeDoneLater)
+   1. Functional [requirements] (https://github.com/fxbonnet/padda/wiki/Requirements) (with 2 categories : necessaryToStart, canBeDoneLater)
    1. Functional architecture : [modules] (https://github.com/fxbonnet/padda/wiki/Modules)
    1. First mockup implementation: interfaces and mock implementations for products and categories
    
